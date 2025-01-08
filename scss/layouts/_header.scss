@@ -1,0 +1,32 @@
+header{
+   color: white;
+    .top-header{
+        background-color: $ternery-color;
+        padding-block: 10px;
+        .logo-div{
+            position: relative;
+            flex-basis: 40%;
+            .logo{
+                position: absolute;
+                top: -10px;
+                border: 3px solid $secondary-color;
+                border-top: none;
+            }
+            marquee{
+                margin-left: 200px;
+            }
+        }
+    }
+    .navigation-bar{
+        background-color: $primary-color;
+        ul {
+            justify-content: end ;
+            li{
+                padding: 20px;
+                &:hover{
+                    background-color: $secondary-color;
+                }
+            }
+        }
+    }
+}

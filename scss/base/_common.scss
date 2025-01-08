@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+ul{
+    list-style: none;
+}
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.container{
+    max-width: 1320px;
+    margin-inline: auto;
+}
+.d-flex{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.justify-content-between{
+    justify-content: space-between;
+}
